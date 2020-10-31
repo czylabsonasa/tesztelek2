@@ -1,0 +1,40 @@
+\documentclass[12pt]{extarticle}
+%\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{verbatim}
+\usepackage{setspace}
+\onehalfspace
+
+\newcommand{\pn}{\par\noindent}
+\newcommand{\valami}[3]{\vspace{#1cm}\pn {\bf #2} #3}
+\newcommand{\feladatp}[6]{
+  \vspace{0.1cm}
+  \centerline {\bf #1}
+  \vspace{0.2cm}
+  \pn #2 
+  \vspace{0.3cm}
+  \pn {\bf input}
+  \pn #3
+  \vspace{0.1cm}
+  \pn {\bf output}
+  \pn #4
+  \vspace{0.2cm}
+  \pn {\bf megjegyzés}
+  \pn #5
+  \vspace{0.3cm}
+  \pn {\bf input A}
+  \verbatiminput{../io/#6.in}
+  \vspace{0.1cm}
+  \pn {\bf output A}
+  \verbatiminput{../io/#6.out}
+}
+
+\newcommand{\feladatpp}[7]{
+  \feladatp{#1}{#2}{#3}{#4}{#5}{#6}
+  \vspace{0.3cm}
+  \pn {\bf input B}
+  \verbatiminput{../io/#7.in}
+  \vspace{0.1cm}
+  \pn {\bf output B}
+  \verbatiminput{../io/#7.out}
+}
