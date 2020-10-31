@@ -38,3 +38,10 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
   * [megoldás func mód](die3sum/doc/fexample.md)
 
 
+#### [diesum](diesum/diesum.pdf)
+* (P)
+* n kockát feldobva mennyi a valsége, hogy a dobott számok összege S?
+
+---
+
+
