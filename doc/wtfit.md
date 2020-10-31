@@ -1,4 +1,8 @@
 ### Ez egy tesztelő
+
+* Elkezdtem [ezt](https://github.com/czylabsonasa/tesztelek) de elégedetlen voltam vele,
+  így mivel a brancsolás a fiataloknak való - átírtam erre. Ez már egy árnyalatnyival 
+  jobban tetszik.
 * Többféle nyelvet használhatsz. (python,matlab/octave,julia,c/c++)
 * A feladatok közül választasz és megpróbálod megoldani.
 * Jelenleg 2 féle megoldási módot támogat:
