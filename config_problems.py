@@ -2,5 +2,6 @@
 # ha van key tudunk róla
 # ha 0 a value nem tesztelheto
 reg_problems=dict({
-  "bday":1
+  "bday":1,
+  "bdaymin":1
 })

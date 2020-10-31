@@ -3,8 +3,8 @@
 * az input/output formáját tekintve a megadott példák a mérvadók
 * jelölés:
   * (M): mintafeladat, megoldásokkal
-  * (Px) : pontos eredményt kell számolni, x-pontot ér
-  * (Sx) : szimulációs feladat, x-pontot ér
+  * (P) : pontos eredményt kell számolni
+  * (S) : szimulációs feladat
 * rövidítés:
   * valség = valószínűség
   * v.v. = valségi változó
@@ -19,3 +19,12 @@ hogy látunk születésnap megegyezést?
 olyan v.v.-t figyelünk meg mely egyforma valséggel vesz fel bármely számot az [1,365] intervallumból.
   * [megoldás prog mód](bday/doc/pexample.md)
   * [megoldás func mód](bday/doc/fexample.md)
+
+
+#### [bdaymin](bdaymin/doc/desc.pdf)
+* (P)
+* hány ember kell hogy legyen egy társaságban, hogy 
+pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
+
+
+---
