@@ -1,3 +1,3 @@
-## [Mi ez?](doc/miez.md)
-## [Használat](doc/hasznal.md)
-## [A feladatok](feladatok/README.md)
+## [Mi ez?](doc/wtfit.md)
+## [Használat](doc/usage.md)
+## [A feladatok](problems/README.md)

@@ -1,6 +1,6 @@
 ## Használat:
-* "parancssoros": ```python checker.py sol=programod lang=nyelv problem=feladat mode=mód```
-  * használható rendszerek: python, octave, matlab (csak AO mód), julia (a lista bővülhet).
+* "parancssoros" 
+  * ```python checker.py sol=programod lang=nyelv problem=feladat mode=mód```
 * jelenleg a checker.py a következő külön telepítendő modulokat használja:
   * tabulate
 
