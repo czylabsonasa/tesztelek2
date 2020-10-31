@@ -17,11 +17,12 @@ while True:
     solve.solve(fin,fout)
   except:
     ok=0
+  mt=time.time()-t0
+
 
   fin.close()
   fout.close()
 
-  mt=time.time()-t0
   with open("act/"+str(cnt)+".info","w") as f:
     f.write("{:d} {:.4f}\n".format(ok, mt))
 

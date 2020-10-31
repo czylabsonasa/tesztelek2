@@ -1,7 +1,7 @@
 ## python
 
 ### app.py
-* mindig ugyanazt az app.py-t használjuk
+* mindig ugyanazt az app fájlt használjuk - ezért nem is inkludálom többet
 * hívás: python app.py
 * a munkakönytárban kell lenni a feladat io könyvtárának és a solve.py megoldásnak
   de ezzel nem kell foglalkozni ha a checker-t használjuk

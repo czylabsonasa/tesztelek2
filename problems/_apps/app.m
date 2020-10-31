@@ -3,7 +3,7 @@ while true
 
   inname=sprintf("io/%d.in",cnt);
   inid=fopen(inname,'r');
-  if inid<0
+  if inid<1
     break
   end
 
