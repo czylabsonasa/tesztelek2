@@ -55,7 +55,7 @@ def solve(fin,fout):
   fout.write("{:.12f}".format(P))
 ```
 
-## octave/matlab
+## octave+matlab
 
 ### app.m
 ```matlab
