@@ -17,8 +17,9 @@
 hogy látunk születésnap megegyezést?
   * fontos **feltevés**: a születésnapok eloszlása egyenletes, azaz
 olyan v.v.-t figyelünk meg mely egyforma valséggel vesz fel bármely számot az [1,365] intervallumból.
-  * [megoldás prog mód](bday/doc/pexample.md)
-  * [megoldás func mód](bday/doc/fexample.md)
+  * megoldás
+    * [prog mód](bday/doc/pexample.md)
+    * [func mód](bday/doc/fexample.md)
 
 
 #### [bdaymin](bdaymin/doc/desc.pdf)
@@ -34,8 +35,9 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 #### [die3sum](die3sum/doc/desc.pdf)
 * (M)
 * 3 kockával dobva mennyi az esély hogy S a dobott számok összege?
-  * [megoldás prog mód](die3sum/doc/pexample.md)
-  * [megoldás func mód](die3sum/doc/fexample.md)
+  * megoldás
+    * [prog mód](die3sum/doc/pexample.md)
+    * [func mód](die3sum/doc/fexample.md)
 
 
 #### [diesum](diesum/diesum.pdf)
