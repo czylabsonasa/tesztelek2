@@ -10,6 +10,8 @@
   * v.v. = valségi változó
 
 ---
+
+
 ### születésnap
 #### [bday](bday/doc/desc.pdf)
 * (M)
@@ -55,4 +57,18 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 
 #### [diemax](diemax/doc/desc.pdf)
 * (P)
-* n kockával dobva mennyi az esély hogy M a dobott számok maximuma?
+* n kockával dobva mennyi az esélye hogy M a dobott számok maximuma?
+
+
+---
+
+
+### vizsga
+#### [examsuccess](examsuccess/doc/desc.pdf)
+* (M)
+* Ha csak egy részét tanulod meg a tételeknek, 2-t húzol, 1-et passzolhatsz, 
+  akkor mekkora valséggel kapsz legalább 2-est?
+  * megoldás
+    * [prog mód](examsuccess/doc/pexample.md)
+    * [func mód](examsuccess/doc/fexample.md)
+

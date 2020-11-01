@@ -7,5 +7,6 @@ reg_problems=dict({
   "diesum3":1,
   "diesum":1,
   "diemax2":1,
-  "diemax":1
+  "diemax":1,
+  "examsuccess":1
 })
