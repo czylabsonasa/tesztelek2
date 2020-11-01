@@ -1,4 +1,4 @@
-## Általános:
+## Általános infók:
 * a számokat legalább 12 jegyig írjuk ki a feladatoknál
 * az input/output formáját tekintve a megadott példák a mérvadók
 * jelölés:
