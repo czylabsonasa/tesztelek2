@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "progress"
+git commit -m "small mod in report"
 git push origin master

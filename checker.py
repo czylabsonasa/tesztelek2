@@ -22,7 +22,7 @@ res=execute(res)
 res=evaluate(res)
 #print("****\n"+str(res))
 
-report([["előkészületek",res["prep"]["msg"],"n/a"]], res)
+report([["előkészületek",res["prep"]["msg"],"n/a"],["*","*","*"]], res)
 
 if res["prep"]["msg"]!="OK":
   print("#"*22 + usage + "#"*22)
