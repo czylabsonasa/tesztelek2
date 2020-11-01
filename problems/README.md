@@ -32,12 +32,12 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 
 
 ### kocka
-#### [die3sum](die3sum/doc/desc.pdf)
+#### [diesum3](diesum3/doc/desc.pdf)
 * (M)
 * 3 kockával dobva mennyi az esély hogy S a dobott számok összege?
   * megoldás
-    * [prog mód](die3sum/doc/pexample.md)
-    * [func mód](die3sum/doc/fexample.md)
+    * [prog mód](diesum3/doc/pexample.md)
+    * [func mód](diesum3/doc/fexample.md)
 
 
 #### [diesum](diesum/diesum.pdf)
