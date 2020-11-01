@@ -40,10 +40,16 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
     * [func mód](diesum3/doc/fexample.md)
 
 
-#### [diesum](diesum/diesum.pdf)
+#### [diesum](diesum/doc/desc.pdf)
 * (P)
 * n kockát feldobva mennyi a valsége, hogy a dobott számok összege S?
 
----
+
+#### [diemax2](diemax2/doc/desc.pdf)
+* (M)
+* 2 kockával dobva mennyi az esély hogy S a dobott számok maximuma?
+  * megoldás
+    * [prog mód](diemax2/doc/pexample.md)
+    * [func mód](diemax2/doc/fexample.md)
 
 

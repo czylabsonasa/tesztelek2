@@ -5,5 +5,6 @@ reg_problems=dict({
   "bday":1,
   "bdaymin":1,
   "diesum3":1,
-  "diesum":1
+  "diesum":1,
+  "diemax2":1
 })
