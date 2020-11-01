@@ -53,3 +53,6 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
     * [func mód](diemax2/doc/fexample.md)
 
 
+#### [diemax](diemax/doc/desc.pdf)
+* (P)
+* n kockával dobva mennyi az esély hogy M a dobott számok maximuma?
