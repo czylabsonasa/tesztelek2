@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2020.5.17)  3 NOV 2020 11:26
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2020.5.17)  3 NOV 2020 12:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -115,65 +115,23 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
+File: ../io/1.in  (verbatim)
+File: ../io/1.out  (verbatim)
 
-Runaway argument?
-{../io/
-! Paragraph ended before \verbatim@input was complete.
-<to be read again> 
-                   \par 
-l.17 
-     
-? q
-OK, entering \batchmode...
-! Extra }, or forgotten \endgroup.
-\feladatp ...input A} \verbatiminput {../io/#6.in}
-                                                   \vspace {0.1cm} \pn {\bf ...
-l.17 
-     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-Runaway argument?
-{../io/
-! Paragraph ended before \verbatim@input was complete.
-<to be read again> 
-                   \par 
-l.17 
-     
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-! Extra }, or forgotten \endgroup.
-\feladatp ...tput A} \verbatiminput {../io/#6.out}
-                                                   
-l.17 
-     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
- [1
+[1
 
 ] (./desc.aux) )
-(\end occurred inside a group at level 3)
+(\end occurred inside a group at level 1)
 
-### semi simple group (level 3) entered at line 17 (\begingroup)
-### semi simple group (level 2) entered at line 17 (\begingroup)
 ### semi simple group (level 1) entered at line 6 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 943 strings out of 494324
- 12772 string characters out of 6162421
- 71907 words of memory out of 5000000
- 4946 multiletter control sequences out of 15000+600000
- 7066 words of font info for 28 fonts, out of 8000000 for 9000
+ 952 strings out of 494324
+ 12869 string characters out of 6162421
+ 72907 words of memory out of 5000000
+ 4949 multiletter control sequences out of 15000+600000
+ 7074 words of font info for 29 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
- 29i,4n,21p,253b,208s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,4n,21p,253b,231s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on desc.pdf (1 page).
