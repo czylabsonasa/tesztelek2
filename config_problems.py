@@ -9,5 +9,6 @@ reg_problems=dict({
   "diemax2":1,
   "diemax":1,
   "examsuccess":1,
-  "exammin":1
+  "exammin":1,
+  "examexp":1
 })
