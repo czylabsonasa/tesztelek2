@@ -73,7 +73,7 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
     * [func mód](examsuccess/doc/fexample.md)
 
 
-#### [examexp](examexp/examexp.pdf)
+#### [examexp](examexp/doc/desc.pdf)
 * (P)
 * Ha csak egy részét tanulod meg a tételeknek, 2-t húzol, 1-et passzolhatsz, 
   akkor mennyi a várható osztályzatod?
