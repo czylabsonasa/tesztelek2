@@ -1,6 +1,6 @@
 ## [Mi ez?](doc/wtfit.md)
 ## [Használat](doc/usage.md)
-## [A feladatok](problems/README.md)
+## [Feladatsorok](problems/README.md)
 
 ## Problémák melyek felmerülhetnek:
 * a ```problems/feladatneve/app.*``` fájlok szimbolikus linkek. Ezzel nem tudom mi történik ha 
