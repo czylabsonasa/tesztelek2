@@ -14,3 +14,4 @@
 
 ## [Alkmat](alkmat.md)
 
+## [Diszkmat](diszkmat.md)

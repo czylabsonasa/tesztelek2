@@ -13,5 +13,7 @@ reg_problems=dict({
   "exammin":1,
   "examexp":1,
   # alkmat
-  "trap":1
+  "trap":1,
+  # diszmat
+  "points":1
 })
