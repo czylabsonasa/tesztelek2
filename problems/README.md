@@ -10,6 +10,8 @@
   * v.v. = valségi változó
 
 ---
+## [Minták](minta.md)
+
 ## [Alkstat](alkstat.md)
 
 ## [Alkmat](alkmat.md)

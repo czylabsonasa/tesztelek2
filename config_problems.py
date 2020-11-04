@@ -2,6 +2,8 @@
 # ha van key tudunk róla
 # ha 0 a value nem tesztelheto
 reg_problems=dict({
+  # minták
+  "proba":1,
   # alkstat
   "bday":1,
   "bdaymin":1,
