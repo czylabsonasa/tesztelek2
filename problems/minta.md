@@ -1,8 +1,9 @@
-### proba
-#### [proba](proba/doc/desc.pdf)
+### Példa
+
+#### [xmpl](xmpl/doc/desc.pdf)
 * (M)
 * Adjuk össze a számokat.
 * megoldás
-  * [prog mód](proba/doc/pexample.md)
-  * [func mód](proba/doc/fexample.md)
+  * [prog mód](xmpl/doc/pexample.md)
+  * [func mód](xmpl/doc/fexample.md)
 

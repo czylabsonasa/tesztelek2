@@ -1,11 +1,11 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2020.5.17)  3 NOV 2020 21:26
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2020.5.17)  4 NOV 2020 11:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **desc.tex
 (./desc.tex
 LaTeX2e <2018-12-01>
-(../../../tex/shared.tex
+(../../_tex/shared.tex
 (/usr/share/texlive/texmf-dist/tex/latex/extsizes/extarticle.cls
 Document Class: extarticle 1996/10/08 v1.0 Non Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
@@ -130,11 +130,11 @@ File: ../io/9.out  (verbatim)
 ### bottom level 
 Here is how much of TeX's memory you used:
  955 strings out of 494324
- 12901 string characters out of 6162421
- 72907 words of memory out of 5000000
+ 12895 string characters out of 6162421
+ 72903 words of memory out of 5000000
  4951 multiletter control sequences out of 15000+600000
  7074 words of font info for 29 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
- 29i,4n,25p,253b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,4n,25p,251b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on desc.pdf (2 pages).

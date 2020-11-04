@@ -10,10 +10,10 @@
   * v.v. = valségi változó
 
 ---
-## [Minták](minta.md)
+## [példa](minta.md)
 
-## [Alkstat](alkstat.md)
+## [alkstat](alkstat.md)
 
-## [Alkmat](alkmat.md)
+## [alkmat](alkmat.md)
 
-## [Diszkmat](diszkmat.md)
+## [diszkmat](diszkmat.md)
