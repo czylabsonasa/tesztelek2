@@ -1,0 +1,34 @@
+## gen
+### app
+* a megírt programnak az ```stdin/stdout```-ot kell használni.
+
+---
+
+## python
+### solve
+```python
+from sys import stdin, stdout
+# 3 változat:
+# stdout.write(str(sum(int(v) for v in stdin.read().split()))+"\n")
+# print(sum(int(v) for v in stdin.read().split()))
+print(sum(int(v) for v in input().split()))
+```
+
+
+## octave+matlab
+### solve
+```matlab
+fprintf(stdout, "%d\n", sum(fscanf(stdin,"%d ")));
+```
+
+
+## julia
+### solve
+```julia
+println(stdout, parse.(Int, read(stdin, String) |> split) |> sum )
+```
+
+
+
+
+
