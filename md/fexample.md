@@ -9,7 +9,7 @@
 
 ## python
 ### app
-* [app.py](../../_app/app.py)
+* [app.py](../../_apps/app.py)
 
 ### solve
 ```python
@@ -17,7 +17,7 @@
 
 ## octave+matlab
 ### app
-* [app.m](../../_app/app.m)
+* [app.m](../../_apps/app.m)
 
 ### solve
 ```matlab
@@ -26,7 +26,7 @@
 
 ## julia
 ### app
-* [app.jl](../../_app/app.jl)
+* [app.jl](../../_apps/app.jl)
 
 ### solve
 ```julia
