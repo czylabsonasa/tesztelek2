@@ -1,5 +1,5 @@
 ### proba
-#### [proba](pproba/doc/desc.pdf)
+#### [proba](proba/doc/desc.pdf)
 * (M)
 * Adjuk össze a számokat.
 * megoldás
