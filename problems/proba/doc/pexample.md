@@ -15,7 +15,7 @@ print(sum(int(v) for v in input().split()))
 ```
 
 
-## octave+matlab
+## octave
 ### solve
 ```matlab
 fprintf(stdout, "%d\n", sum(fscanf(stdin,"%d ")));
