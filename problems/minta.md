@@ -1,6 +1,6 @@
 ### Példa
 
-#### [xmpl](xmpl/doc/desc.pdf)
+#### [példa (xmpl)](xmpl/doc/desc.pdf)
 * (M)
 * Adjuk össze a számokat.
 * megoldás
