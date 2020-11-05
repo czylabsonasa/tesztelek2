@@ -63,3 +63,20 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 * (P)
 * Ha csak egy részét tanulod meg a tételeknek, 2-t húzol, 1-et passzolhatsz, 
   akkor mennyi a várható osztályzatod?
+
+#### [exammin](exammin/doc/desc.pdf)
+* (P)
+* Csak egy részét tanulod meg a tételeknek, 2-t húzol, 1-et passzolhatsz.
+  Hányat tanulj meg minimálisan hogy P valséggel átmenj?
+
+
+
+### halmaz
+#### [setsize](setsize/doc/desc.pdf)
+* (M)
+* Egy N elemű halmaz összes részhalmaza közül véletlenszerűen választva, milyen eséllyel kapunk M eleműt?
+* megoldás
+  * [prog mód](setsize/doc/pexample.md)
+  * [func mód](setsize/doc/fexample.md)
+
+

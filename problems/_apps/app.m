@@ -1,3 +1,9 @@
+% octave eseten a ~/.octaverc-be
+% rakjuk be:
+% pkg load statistics
+% nehany helyen hasznaljuk, a leg1xubb ezen a szintem behivni
+% mert igy az app es a solve egyseges marad
+
 cnt=0;
 while true
 

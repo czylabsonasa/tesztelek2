@@ -14,6 +14,7 @@ reg_problems=dict({
   "examsuccess":1,
   "exammin":1,
   "examexp":1,
+  "setsize":1,
   # alkmat
   "trap":1,
   # diszmat
