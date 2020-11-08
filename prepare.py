@@ -15,7 +15,7 @@ def prepare(res):
     makedirs(TEST_DIR+"/act")
 
   def cmdline():
-    from aux import getargs
+    from auxiliaries import getargs
     from config_problems import reg_problems
     from config_gen import config_gen
 

@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "progress"
+git commit -m "rename aux.py -> auxiliaries.py to make more win compatible"
 git push origin master

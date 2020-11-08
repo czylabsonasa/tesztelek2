@@ -3,7 +3,7 @@ def execute(res):
     res["exec"]=dict()
     return res
 
-  #from aux import tokensof
+  #from auxiliaries import tokensof
   #from config_gen import FLOAT_TOL, INT_TOL
   from os import chdir, system, path
   from pathlib import Path
