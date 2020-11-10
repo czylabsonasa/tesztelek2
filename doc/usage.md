@@ -1,8 +1,8 @@
 ## Használat:
 * "parancssoros" 
   * ```python checker.py sol=programod lang=nyelv problem=feladat mode=mód```
-* a nyelvek csak bizonyos korlátozásokkal használhatók: melyek célja 
-  * `prog` módban használható rendszerek: 
+* a nyelvek csak bizonyos korlátozásokkal használhatóak.
+  * `prog` módban használható (=az aktuális használható nyelvek lista):
     * octave
     * python
     * julia
