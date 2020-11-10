@@ -4,6 +4,7 @@ from evaluate import evaluate
 from report import report
 
 usage="""
+======================================================================
     használat:
     python checker.py sol=fájl lang=nyelv problem=feladat mode=mód
       a paraméterek:
@@ -13,16 +14,18 @@ usage="""
       mode: 
         prog --> klasszikus program
         func --> csak egy függvény
+======================================================================
 """
 
+
+
 res=prepare(dict())
-#print("****\n"+str(res))
 res=execute(res)
-#print("****\n"+str(res))
 res=evaluate(res)
-#print("****\n"+str(res))
+report(res)
 
-report([["előkészületek",res["prep"]["msg"],"n/a"],["*","*","*"]], res)
 
+print()
 if res["prep"]["msg"]!="OK":
-  print("#"*22 + usage + "#"*22)
+  print(usage)
+

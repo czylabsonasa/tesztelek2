@@ -79,4 +79,10 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
   * [prog mód](setsize/doc/pexample.md)
   * [func mód](setsize/doc/fexample.md)
 
+#### [setexc](set/doc/desc.pdf)
+* (P)
+* Egy N elemű halmaz összes részhalmaza közül véletlenszerűen, visszatevéssel kettőt választva, 
+  milyen eséllyel kapunk diszjunkt halmazokat?
+
+
 
