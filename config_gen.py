@@ -4,16 +4,17 @@ INT_TOL=1e-16 # func módban probléma lehet, mert az app.m mindent lebegopontos
 
 # ismert nyelvek (nem minden modban hasznalhato mindegyik)
 _langs=[
-  "python","matlab","octave","julia",
+  "python","matlab","octave","julia","node.js",
   "binary"
 ]
 
 _lang2ext=dict({
-    "python":".py",
-    "matlab":".m",
-    "octave":".m",
-    "julia":".jl",
-    "binary":""
+    "python"   :".py",
+    "matlab"   :".m",
+    "octave"   :".m",
+    "julia"    :".jl",
+    "node.js"  :".js",
+    "binary"   :""
 })
 
 # func mod parancsai
@@ -30,6 +31,7 @@ _lang2cmdP=dict({
     "python"  :"python solve.py "+_pvege,
     "octave"  :"octave-cli solve.m "+_pvege,
     "julia"   :"julia solve.jl "+_pvege,
+    "node.js" :"node solve.js "+_pvege,
     "binary"  :"./solve "+_pvege # win ???
 })
 

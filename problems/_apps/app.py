@@ -1,5 +1,7 @@
 import time
-import solve
+# import solve
+fin=open("solve.py")
+exec(fin.read())
 
 cnt=0
 while True:
