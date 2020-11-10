@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "node.js elérhető"
+git commit -m "tabulate függőség kidobva"
 git push origin master
