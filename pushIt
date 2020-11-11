@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "problems/walk+app.py import helyett exec"
+git commit -m "progress"
 git push origin master
