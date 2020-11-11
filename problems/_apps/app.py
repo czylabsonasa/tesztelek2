@@ -16,7 +16,8 @@ while True:
   t0=time.time()
   ok=1
   try:
-    solve.solve(fin,fout)
+    #solve.solve(fin,fout)
+    solve(fin,fout)
   except:
     ok=0
   mt=time.time()-t0

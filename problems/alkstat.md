@@ -84,5 +84,9 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 * Egy N elemű halmaz összes részhalmaza közül véletlenszerűen, visszatevéssel kettőt választva, 
   milyen eséllyel kapunk diszjunkt halmazokat?
 
+### bolyongás
+#### [walk](walk/doc/desc.pdf)
+* (P)
+* véletlen bolyongás a számegyenesen
 
 
