@@ -95,3 +95,10 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 
 
 
+### valségi változó
+#### [ranvar](ranvar/doc/desc.pdf)
+* (P)
+* várható érték és szórás
+
+
+
