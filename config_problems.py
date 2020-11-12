@@ -18,6 +18,7 @@ reg_problems=dict({
   "setexc":1,
   "walk":1,
   "walk2":1,
+  "ranvar":1,
   # alkmat
   "trap":1,
   # diszmat

@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "feladat"
+git commit -m "fáj a Napnak és fáj a Holdnak - a Mindenségnek fájdalom..."
 git push origin master
