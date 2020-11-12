@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2020.5.17)  5 NOV 2020 22:30
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2020.5.17)  12 NOV 2020 22:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -115,16 +115,11 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
-
-Overfull \hbox (0.16246pt too wide) in paragraph at lines 14--14
- \TU/lmr/m/n/12 Egy $\OML/cmm/m/it/12 N$ \TU/lmr/m/n/12 elemű halmaz összes rés
-zhalmazából véletlenszerűen választunk egyet.
- []
-
 File: ../io/5.in  (verbatim)
 File: ../io/5.out  (verbatim)
 File: ../io/25.in  (verbatim)
 File: ../io/25.out  (verbatim)
+
 [1
 
 ] (./desc.aux) )
