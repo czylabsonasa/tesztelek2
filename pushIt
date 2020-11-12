@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "progress"
+git commit -m "feladat"
 git push origin master

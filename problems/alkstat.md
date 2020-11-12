@@ -89,4 +89,9 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 * (P)
 * véletlen bolyongás a számegyenesen
 
+#### [walk2](walk2/doc/desc.pdf)
+* (P)
+* véletlen bolyongás a síkon
+
+
 
