@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "Fáj a földnek és fáj a napnak s a mindenségnek fáj dalom (Dsida Jenő)"
+git commit -m "Mert te ilyen vagy s ők olyanok..."
 git push origin master
