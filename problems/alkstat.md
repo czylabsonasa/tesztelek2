@@ -100,5 +100,10 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 * (P)
 * várható érték és szórás
 
+#### [ranvar2](ranvar2/doc/desc.pdf)
+* (P)
+* két valségi változó korrelációja
+
+
 
 
