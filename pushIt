@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "S neki az érdeke más..."
+git commit -m "S az igazság idegállapot,"
 git push origin master
