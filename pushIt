@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "vagy megfogalmazás,"
+git commit -m "mert kint nem tetszik semmi sem,"
 git push origin master
