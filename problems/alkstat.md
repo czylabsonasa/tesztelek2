@@ -105,5 +105,14 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 * két valségi változó korrelációja
 
 
+### minták
+#### [sample](sample/doc/desc.pdf)
+* (P)
+* tapasztalati eloszlás-függvény
+
+
+
+
+
 
 
