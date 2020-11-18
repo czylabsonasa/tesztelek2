@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "S az igazság idegállapot,"
+git commit -m "vagy megfogalmazás,"
 git push origin master

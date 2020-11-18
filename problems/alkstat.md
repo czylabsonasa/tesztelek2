@@ -104,6 +104,11 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 * (P)
 * két valségi változó korrelációja
 
+#### [ranvar3](ranvar3/doc/desc.pdf)
+* (P)
+* diszkrét valváltozó eloszlásfüggvénye
+
+
 
 ### minták
 #### [sample](sample/doc/desc.pdf)
