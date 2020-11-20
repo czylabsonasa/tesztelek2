@@ -84,6 +84,20 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 * Egy N elemű halmaz összes részhalmaza közül véletlenszerűen, visszatevéssel kettőt választva, 
   milyen eséllyel kapunk diszjunkt halmazokat?
 
+
+### szám
+#### [number](number/doc/desc.pdf)
+* (P)
+* Két halmazból 1-1 számot választva mennyi a valsége hogy pozitív a szorzatuk?
+
+#### [number2](number2/doc/desc.pdf)
+* (P)
+* N halmazból 1-1 számot választva mennyi a valsége hogy pozitív a szorzatuk?
+
+
+
+
+
 ### bolyongás
 #### [walk](walk/doc/desc.pdf)
 * (P)
@@ -110,7 +124,7 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 
 
 
-### minták
+### minta
 #### [sample](sample/doc/desc.pdf)
 * (P)
 * tapasztalati eloszlás-függvény

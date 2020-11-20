@@ -22,6 +22,7 @@ reg_problems=dict({
   "ranvar2":1,
   "ranvar3":1,
   "sample":1,
+  "number":1,
   # alkmat
   "trap":1,
   # diszmat
