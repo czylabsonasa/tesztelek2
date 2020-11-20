@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2020.5.17)  20 NOV 2020 12:11
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2020.5.17)  20 NOV 2020 07:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -117,8 +117,8 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 File: ../io/1.in  (verbatim)
 File: ../io/1.out  (verbatim)
-File: ../io/7.in  (verbatim)
-File: ../io/7.out  (verbatim)
+File: ../io/3.in  (verbatim)
+File: ../io/3.out  (verbatim)
 
 [1
 

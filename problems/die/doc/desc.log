@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2020.5.17)  20 NOV 2020 12:11
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2019/dev/Debian) (preloaded format=xelatex 2020.5.17)  20 NOV 2020 12:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -115,10 +115,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
 LaTeX Font Info:    ... okay on input line 3.
-File: ../io/1.in  (verbatim)
-File: ../io/1.out  (verbatim)
-File: ../io/7.in  (verbatim)
-File: ../io/7.out  (verbatim)
+File: ../io/5.in  (verbatim)
+File: ../io/5.out  (verbatim)
 
 [1
 
@@ -128,12 +126,12 @@ File: ../io/7.out  (verbatim)
 ### semi simple group (level 1) entered at line 6 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 955 strings out of 494324
- 12895 string characters out of 6162421
- 72903 words of memory out of 5000000
- 4951 multiletter control sequences out of 15000+600000
+ 952 strings out of 494324
+ 12863 string characters out of 6162421
+ 71903 words of memory out of 5000000
+ 4949 multiletter control sequences out of 15000+600000
  7074 words of font info for 29 fonts, out of 8000000 for 9000
  350 hyphenation exceptions out of 8191
- 29i,4n,25p,251b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,4n,21p,251b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on desc.pdf (1 page).
