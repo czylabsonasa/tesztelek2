@@ -91,7 +91,7 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 * Két halmazból 1-1 számot választva mennyi a valsége hogy pozitív a szorzatuk?
 
 #### [number2](number2/doc/desc.pdf)
-* (P) TODO
+* (P)
 * N halmazból 1-1 számot választva mennyi a valsége hogy pozitív a szorzatuk?
 
 
