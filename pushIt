@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "és ami szabály, mind nélkülem született,"
+git commit -m "ideje volna végre már megszöknöm közületek,"
 git push origin master
