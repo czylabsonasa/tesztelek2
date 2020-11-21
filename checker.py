@@ -13,7 +13,13 @@ usage="""
       problem: a tesztelendő feladat rövid neve
       mode: 
         prog --> klasszikus program
-        func --> csak egy függvény
+        func --> csak egy függvény, ez a DEFAULT.
+    A sol mindenképpen kell. A többit megpróbálja a fájlnévből kitalálni.
+    Például:
+    python checker.py sol=bday.py
+    megfelel a hosszabb:
+    python checker.py sol=bday.py lang=python problem=bday mode=func
+    hívásnak.
 ======================================================================
 """
 
