@@ -107,6 +107,11 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 * (P)
 * véletlen bolyongás a síkon
 
+#### [walk3](walk3/doc/desc.pdf)
+* (P)
+* mennyi eséllyel érhető el egy pont?
+
+
 
 
 ### valségi változó

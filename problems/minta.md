@@ -1,4 +1,5 @@
 ### Példa
+* legelőször ezt érdemes kipróbálni
 
 #### [xmpl](xmpl/doc/desc.pdf)
 * (M)
