@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "lásd news4me..."
+git commit -m "news4me->log4me + átmozgat ezt-azt"
 git push origin master
