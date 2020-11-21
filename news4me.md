@@ -8,7 +8,7 @@
 * sorrend: defaultargs -> guessargs -> parancssorban megadottak
   * tehát az utolsó a végleges
 
-#### technikailag megvalósítás:
+#### ez technikailag:
 * `_defaultargs` módosít
 * `_ext2lang` bevezet, dot kidob az ext-ből
   * win-es path-ok kezelése (pl: "c:\asd\bsd.py" )
