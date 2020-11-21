@@ -2,9 +2,11 @@
 
 ### 
 
-# egyszeru parancssori feldolgozo
-def getargs(argd): # argd-ben vannak a default ertekek
+# liberális parancssori feldolgozo
+# mindent elfogad ami key=value, ami már volt azt felülírja
+def getargs():
   from sys import argv
+  ret=dict()
   ok=True
   for v in argv[1:]:
     if '=' in v: # csak egyenlosegest fogad el
@@ -13,21 +15,22 @@ def getargs(argd): # argd-ben vannak a default ertekek
       # tobb egyenloseg van
       # az lhs nem key
       # az rhs nulla hosszu
-      if (len(r)!=2) or (r[0] not in argd.keys()) or (len(r[1])==0):
+      if (len(r)!=2) or (len(r[1])==0):
         ok=False
         break
-      argd[r[0]]=r[1]
+      ret[r[0]]=r[1]
     else:
       ok=False
       break
-  if ok==True:
-    for k,v in argd.items():
-      if len(v)==0:
-        ok=False
-        break
-  return ok
+  return ret, ok
 
 ###
+
+### szótár kopizás
+def copydict(src,tar):
+  for k in src:
+    if k in tar:
+      tar[k]=src[k]
 
 # tokenizal
 def tokensof(name):

@@ -18,6 +18,7 @@ reg_problems=dict({
   "set2":1,
   "walk":1,
   "walk2":1,
+  "walk3":1,
   "ranvar":1,
   "ranvar2":1,
   "ranvar3":1,

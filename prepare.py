@@ -1,11 +1,11 @@
 def prepare(res):
-  def geninit():
+  def defaultargs():
     from config_gen import config_gen
     for k,v in config_gen["defaultargs"].items():
       res[k]=v
 
 
-  def testdirinit():
+  def inittestdir():
     from shutil import rmtree
     from os import makedirs
     TEST_DIR=res["TEST_DIR"]
@@ -14,26 +14,46 @@ def prepare(res):
     makedirs(TEST_DIR)
     makedirs(TEST_DIR+"/act")
 
-  def cmdline():
-    from auxiliaries import getargs
+  def guessargs():
+    sol=res["sol"]
+    # nincs honnan találgatni
+    if sol=="":
+      return
+    from platform import system
+    dirsep="/"
+    if system()=="Windows":
+      dirsep="\\"
+    prob,kit=sol.split(':')[-1].split(dirsep)[-1].split('.')
+    if res["problem"]=="":
+      res["problem"]=prob
+    from config_gen import config_gen
+    if res["lang"]=="" and kit in config_gen["ext2lang"]:
+      res["lang"]=config_gen["ext2lang"][kit]
+
+  def validargs():
     from config_problems import reg_problems
     from config_gen import config_gen
 
     PROBLEM_DIR=res["PROBLEM_DIR"]
 
-    res["msg"]="OK"
     while True:
-      # hiba a parancssori argok feldolgozasanal:
-      if getargs(res)==False:
-        res["msg"]="hiba a parancssorban"
-        break
-
-      # print(res)
       sol=res["sol"]
       lang=res["lang"]
       problem=res["problem"]
       mode=res["mode"]
-      
+
+      # print(res)
+      # nincs sol a cl-ben
+      if sol=="":
+        res["msg"]="legalább a forrást meg kell adni"
+        break
+      if lang=="":
+        res["msg"]="nem tudom megállapítani a nyelv-et"
+        break
+      if lang=="":
+        res["msg"]="nem tudom megállapítani a feladat-ot"
+        break
+        
       # a programfájl megléte:
       try:
         open(sol).close()
@@ -63,8 +83,12 @@ def prepare(res):
           break
         
       if mode=="func":
+        if lang=="binary":
+          res["msg"]="nem elérhető a func mód"
+          break
+
         from os import path
-        pth=PROBLEM_DIR+"/"+problem+"/app"+config_gen["lang2ext"][lang];
+        pth=PROBLEM_DIR+"/"+problem+"/app."+config_gen["lang2ext"][lang]
         #print(pth)
         if False==path.islink(pth) and False==path.isfile(pth):
           res["msg"]="nem elérhető a func mód"
@@ -75,7 +99,7 @@ def prepare(res):
       break
     
   # prog/func
-  def copystuff():
+  def populatetestdir():
     from shutil import copy, copytree
     from config_gen import config_gen
 
@@ -88,15 +112,31 @@ def prepare(res):
     mode=res["mode"]
     ext=config_gen["lang2ext"][lang]
     
-    copy(sol, TEST_DIR+"/solve"+ext)
+    copy(sol, TEST_DIR+"/solve."+ext)
     if mode=="func":
-      copy(PROBLEM_DIR+"/_apps/app"+ext, TEST_DIR+"/app"+ext)
+      copy(PROBLEM_DIR+"/_apps/app."+ext, TEST_DIR+"/app."+ext)
     copytree(PROBLEM_DIR+"/"+problem+"/io", TEST_DIR+"/io")
 
-  geninit()
-  cmdline()
-  if res["msg"]=="OK":
-    testdirinit()
-    copystuff()
 
+  # tevékenység:
+  from auxiliaries import getargs, copydict
+  res["msg"]="OK"
+  defaultargs() # ez bemásolja a config-ból a def értékeket
+  while True:
+    argdict,ok=getargs()
+    if ok==False:
+      # hiba:
+      res["msg"]="hiba a parancssori argumentumokban."
+      break
+    # insert az ujak
+    copydict(argdict,res)
+    # megpróbáljuk a hiányzó cl argokat összeszedni
+    guessargs()
+    # megfelelőek-e az arg-ok
+    validargs() 
+    if res["msg"]=="OK":
+      inittestdir()
+      populatetestdir()
+    break
+  
   return dict({"prep":res})

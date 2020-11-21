@@ -3,19 +3,36 @@ INT_TOL=1e-16 # func módban probléma lehet, mert az app.m mindent lebegopontos
 
 
 # ismert nyelvek (nem minden modban hasznalhato mindegyik)
+# elvileg bármire fel lehet készíteni, de jobb szeretem 
+# ellenőrizni, hogy nincs-e probléma az adott nyelvvel (lebegőpontos számok...)
 _langs=[
   "python","matlab","octave","julia","node.js",
   "binary"
 ]
 
 _lang2ext=dict({
-    "python"   :".py",
-    "matlab"   :".m",
-    "octave"   :".m",
-    "julia"    :".jl",
-    "node.js"  :".js",
-    "binary"   :""
+    "python"   : "py",
+    "matlab"   : "m",
+    "octave"   : "m",
+    "julia"    : "jl",
+    "node.js"  : "js",
+    "binary"   : "exe"
 })
+
+# a matlab nincs octave a default
+_ext2lang=dict({ 
+    "py"   : "python",
+    "m"    : "octave",
+    "jl"   : "julia" ,
+    "js"   : "node.js",
+    "exe"     : "binary"
+})
+
+
+
+
+
+
 
 # func mod parancsai
 _fvege=" 1> fake.out 2> fake.out"
@@ -37,11 +54,12 @@ _lang2cmdP=dict({
 
 _modes=["prog","func"]
 
+
 _defaultargs=dict({
-  "lang":"python",
+  "lang":"",
   "problem":"",
   "sol":"",
-  "mode":"prog",
+  "mode":"func",
   "TEST_DIR":"testdir",
   "PROBLEM_DIR":"problems"
 })
@@ -51,5 +69,6 @@ config_gen=dict({
   "modes":_modes,
   "lang2cmd":dict({"prog":_lang2cmdP, "func":_lang2cmdF}),
   "lang2ext":_lang2ext,
+  "ext2lang":_ext2lang,
   "langs":_langs
 })

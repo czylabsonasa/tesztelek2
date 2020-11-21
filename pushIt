@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "ideje volna végre már megszöknöm közületek,"
+git commit -m "lásd news4me..."
 git push origin master
