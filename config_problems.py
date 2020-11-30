@@ -4,7 +4,7 @@
 reg_problems=dict({
   # minták
   "proba":1,
-  # alkstat
+  # val
   "bday":1,
   "bday2":1,
   "die":1,
@@ -22,9 +22,11 @@ reg_problems=dict({
   "ranvar":1,
   "ranvar2":1,
   "ranvar3":1,
-  "sample":1,
   "number":1,
   "number2":1,
+  # stat
+  "sample":1,
+  "desc":1,
   # alkmat
   "trap":1,
   # diszmat

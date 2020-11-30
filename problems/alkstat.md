@@ -1,3 +1,5 @@
+## valség
+
 ### születésnap
 #### [bday](bday/doc/desc.pdf)
 * (M)
@@ -129,9 +131,15 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 
 
 
-### minta
+## statisztika
+
 #### [sample](sample/doc/desc.pdf)
 * (P)
 * tapasztalati eloszlás-függvény
+
+#### [desc](desc/doc/desc.pdf)
+* (P)
+* mintaátlag, std és medián
+
 
 
