@@ -114,3 +114,28 @@ function solve(fin,fout)
   fprintf(fout,"%.12f\n",P);
 end
 ```
+
+### solve.js
+```js
+// Kántor Dániel bday2 megoldásából:
+const fs = require('fs');
+
+var solve = (fin,fout) => {
+  let M = parseInt(fs.readFileSync(fin,'utf-8'));
+  let result=calculate(M);
+  fs.writeFileSync(fout,result.toFixed(12).toString(),{flags:'wx'});
+};
+
+var calculate = (M) => {
+  if(M > 365) return 1.0;
+  if(M < 2) return 0.0;
+
+  let result = 1.0;
+  for(let i = 0;i<M;i++){
+    result *= (1 - i / 365);
+  }
+  return 1 - result;
+};
+
+module.exports = solve;
+```

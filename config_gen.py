@@ -40,7 +40,8 @@ _lang2cmdF=dict({
     "python"  :"python app.py"+_fvege,
     "matlab"  :"matlab -nojvm -nodesktop -nosplash < app.m"+_fvege,
     "octave"  :"octave-cli app.m"+_fvege,
-    "julia"   :"julia app.jl"+_fvege
+    "julia"   :"julia app.jl"+_fvege,
+    "node.js" :"node app.js "+_fvege
 })
 
 _pvege="< io/{:s}.in 1> act/{:s}.out 2> fake.out"
