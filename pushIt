@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "Kántor Dániel: func mode (app.js) + bday.js az fexample.md-be)"
+git commit -m "log4me update"
 git push origin master

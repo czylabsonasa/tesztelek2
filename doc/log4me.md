@@ -1,4 +1,10 @@
-## módosítások/tervek
+## Módosítások
+
+### 2020 nov 30
+#### func mód a javascript/node.js-hez [app.js](../problems/_apps/app.js)
+#### megvalósítás: [Kántor Dániel](https://github.com/KDani-99)
+
+---
 
 ### 2020 nov 21
 #### cél: `python checker.py sol=bday.m` típusú használat
@@ -17,4 +23,7 @@
 * a `prepare` fv tevékenység átszervezése
   * `cmdline` kidob -> `validargs` bevezet (ezek a `cmdline`-ben voltak)
 
-#### elvileg: `done`
+---
+
+## Egyebek
+* [itt](iss.md)
