@@ -141,5 +141,19 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 * (P)
 * mintaátlag, std és medián
 
+#### [ztest](ztest/doc/desc.pdf)
+* (P)
+* z-(u-)próba
+
+#### [ttest](ttest/doc/desc.pdf)
+* (P)
+* t-próba
+
+
+
+
+
+
+
 
 
