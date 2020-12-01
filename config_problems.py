@@ -28,6 +28,7 @@ reg_problems=dict({
   "sample":1,
   "desc":1,
   "ztest":1,
+  "ttest":1,
   # alkmat
   "trap":1,
   # diszmat
