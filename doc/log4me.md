@@ -1,7 +1,7 @@
 ## Módosítások
 
 ### 2020 dec 02
-#### golang prog-módban tesztelve
+#### golang prog-módban [tesztelve](../problems/bday/psolve.go)
 
 ---
 
