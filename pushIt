@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "golang prog mód"
+git commit -m "app.js -> fexample (bday)"
 git push origin master
