@@ -22,7 +22,7 @@ def execute(res):
     pth=Path().absolute()
     chdir(res["prep"]["TEST_DIR"])
     cmd=res["prep"]["cmd"]
-    #print("cmd="+cmd)
+    print("cmd="+cmd)
     cnt=0
     while True:
       scnt=str(cnt)

@@ -6,7 +6,7 @@ INT_TOL=1e-16 # func módban probléma lehet, mert az app.m mindent lebegopontos
 # elvileg bármire fel lehet készíteni, de jobb szeretem 
 # ellenőrizni, hogy nincs-e probléma az adott nyelvvel (lebegőpontos számok...)
 _langs=[
-  "python","matlab","octave","julia","node.js",
+  "python","matlab","octave","julia","node.js","golang",
   "binary"
 ]
 
@@ -16,6 +16,7 @@ _lang2ext=dict({
     "octave"   : "m",
     "julia"    : "jl",
     "node.js"  : "js",
+    "golang"   : "go",
     "binary"   : "exe"
 })
 
@@ -25,6 +26,7 @@ _ext2lang=dict({
     "m"    : "octave",
     "jl"   : "julia" ,
     "js"   : "node.js",
+    "go"   : "golang",
     "exe"     : "binary"
 })
 
@@ -50,6 +52,7 @@ _lang2cmdP=dict({
     "octave"  :"octave-cli solve.m "+_pvege,
     "julia"   :"julia solve.jl "+_pvege,
     "node.js" :"node solve.js "+_pvege,
+    "golang"  :"go run solve.go "+_pvege,
     "binary"  :"./solve "+_pvege # win ???
 })
 

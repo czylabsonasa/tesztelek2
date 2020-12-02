@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "új feladatok"
+git commit -m "golang prog mód"
 git push origin master
