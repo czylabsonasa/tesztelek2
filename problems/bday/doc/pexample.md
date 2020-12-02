@@ -52,3 +52,35 @@ int main(){
   return 0;
 }
 ```
+
+
+### golang
+
+```go
+package main
+  
+import "fmt"
+  
+func main() {
+  var m int64
+  fmt.Scanf("%d", &m)
+  
+  solve := func(m int64) float64 {
+    var p float64
+
+    if m<2 {
+      return 0.0
+    }
+    if m>365 {
+      return 1.0
+    }
+    p=1
+    m=m-1
+    for ; m>0; m--{
+      p=p*(1.0-float64(m)/365.0)
+    }
+    return 1.0-p
+  }
+  fmt.Println(solve(m))
+}
+```
