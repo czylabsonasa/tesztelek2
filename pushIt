@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "app.js -> fexample (bday)"
+git commit -m "progress"
 git push origin master
