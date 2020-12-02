@@ -1,5 +1,10 @@
 ## Módosítások
 
+### 2020 dec 02
+#### golang prog-módban tesztelve
+
+---
+
 ### 2020 nov 30
 #### func mód a javascript/node.js-hez [app.js](../problems/_apps/app.js)
 #### megvalósítás: [Kántor Dániel](https://github.com/KDani-99)
