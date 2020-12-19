@@ -151,7 +151,16 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 
 
 
+## szimuláció
 
+#### [tictactoe](tictactoe/doc/desc.md)
+* (S)
+* a tictactoe játék vak változatának szimulációja
+
+#### [amoeba](amoeba/doc/desc.md)
+* (S)
+* az amőba játék vak változatának szimulációja
+* mXn-es táblán k-t egy sorban/oszlopban/átlóban 
 
 
 
