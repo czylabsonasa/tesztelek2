@@ -4,8 +4,8 @@ elérése a cél. (az nyer akinek van ilyen) - teljesen véletlenszerűen rakjá
 Szimuláljuk a játékot. 
 
 ### Kimenet
-A következő kimenetekhez hasonlót kell kapni:
-[egy](abra2.png)
-[kettő](abra3.png)
-[három](abra4.png)
-[négy](abra5.png)
+A következő kimenetekhez hasonlót kell kapni. (Az ISM a lejátszott játékok száma.)
+[A](abra2.png)
+[B](abra3.png)
+[C](abra4.png)
+[D](abra5.png)

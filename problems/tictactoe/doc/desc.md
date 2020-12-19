@@ -3,7 +3,7 @@ Két vak [tictactoe](https://en.wikipedia.org/wiki/Tic-tac-toe)-t játszik - tel
 Szimuláljuk a játékot. 
 
 ### Kimenet
-A következő kimenetekhez hasonlót kell kapni:
+A következő kimenetekhez hasonlót kell kapni. (Az ISM a lejátszott játékok száma)
 [100 játék](abra2.png)
 [1000 játék](abra3.png)
 [10000 játék](abra4.png)
