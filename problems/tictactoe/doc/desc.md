@@ -4,8 +4,11 @@ Szimuláljuk a játékot.
 
 ### Kimenet
 A következő kimenetekhez hasonlót kell kapni. (Az ISM a lejátszott játékok száma)
-[100 játék](abra2.png)
-[1000 játék](abra3.png)
-[10000 játék](abra4.png)
-[100000 játék](abra5.png)
+[A](abra2.png)
+
+[B](abra3.png)
+
+[C](abra4.png)
+
+[D](abra5.png)
 
