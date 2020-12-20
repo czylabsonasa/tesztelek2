@@ -7,9 +7,9 @@ function sim(M, ISM, nev) % a nev a kép neve
 
   tt=tic();
   for k = X
-    akt=randi(365,M,1);
-    [frek,kp]=hist(akt,1:365);
-    Y(k)=any(frek>1);
+    akt=randi(365,M,1); % megfigyelünk egy M elemű társaságot
+    [frek,kp]=hist(akt,1:365); % gyakoriságok
+    Y(k)=any(frek>1); % ha van azonosság 1-re állítjuk
   end
   Y = cumsum(Y) ./ X; % relatív gyakoriságok
   tt=toc(tt);

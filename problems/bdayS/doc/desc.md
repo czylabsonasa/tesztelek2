@@ -1,5 +1,5 @@
 ### Feladat bdayS
-Szimuláljuk a [bday](../../bday/doc/desc.md) feladatot.
+Szimuláljuk a [bday](../../bday/doc/desc.pdf) feladatot.
 
 ### Kimenet
 A következő kimenetekhez hasonlót kell kapni. (Az ISM a megfigyelések száma)
