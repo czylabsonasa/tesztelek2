@@ -1,5 +1,5 @@
 ### Feladat segmentS
-Válasszunk 2 pontot az egységnégyzetből. Milyen hosszú szakaszra számíthatunk? 
+Válasszunk 2 pontot az egységoldalú `négyzet`ből. Milyen hosszú szakaszra számíthatunk? 
 Határozzuk meg a várható értéket szimulációval.
 
 ### Kimenet

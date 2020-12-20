@@ -1,5 +1,5 @@
 ### Feladat segment2S
-Válasszunk 2 pontot az origó középpontú egységsugarú `körből`. Milyen hosszú szakaszra számíthatunk? 
+Válasszunk 2 pontot az origó középpontú egységsugarú `kör`ből. Milyen hosszú szakaszra számíthatunk? 
 Határozzuk meg a várható értéket szimulációval.
 
 ### Kimenet
