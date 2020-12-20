@@ -177,3 +177,14 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 * tictactoe variáció (nehezebb mint a sima)
 
 
+#### [segmentS](segmentS/doc/desc.md)
+* (S)
+* pontok távolsága a négyzetben
+
+#### [segment2S](segment2S/doc/desc.md)
+* (S)
+* pontok távolsága a körben
+
+
+
+
