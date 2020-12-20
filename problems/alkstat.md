@@ -159,6 +159,14 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 #### [bdayhistS](bdayhistS/doc/desc.md)
 * (S)
 
+#### [bdayKS](bdayKS/doc/desc.md)
+* (S)
+
+#### [bdayPS](bdayPS/doc/desc.md)
+* (S)
+
+
+
 
 #### [tttS](tttS/doc/desc.md)
 * (S)
