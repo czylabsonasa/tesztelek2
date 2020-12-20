@@ -156,6 +156,9 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 #### [bdayS](bdayS/doc/desc.md)
 * (SM)
 
+#### [bdayhistS](bdayhistS/doc/desc.md)
+* (S)
+
 
 #### [tttS](tttS/doc/desc.md)
 * (S)
