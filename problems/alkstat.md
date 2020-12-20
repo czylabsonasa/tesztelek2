@@ -153,11 +153,12 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 
 ## szimuláció
 
-#### [tictactoe](tictactoe/doc/desc.md)
+#### [tttS](tttS/doc/desc.md)
 * (S)
 * a tictactoe játék vak változatának szimulációja
 
-#### [tictactoe2](tictactoe2/doc/desc.md)
+#### [ttt2S](ttt2S/doc/desc.md)
 * (S)
 * tictactoe variáció (nehezebb mint a sima)
+
 
