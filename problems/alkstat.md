@@ -186,3 +186,9 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 #### [segment2S](segment2S/doc/desc.md)
 * (S)
 * pontok távolsága a körvonalon
+
+
+#### [segment3S](segment3S/doc/desc.md)
+* (S)
+* pontok távolsága a körön (belül is lehet)
+
