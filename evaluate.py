@@ -20,9 +20,9 @@ def evaluate(res):
       while True:
         try:
           float(so)
-          "." in so
-          tip=float
-          break
+          if "." in so: # ddddéndzserasz
+            tip=float
+            break
         except:
           pass
         try:
@@ -46,7 +46,7 @@ def evaluate(res):
           if va!=vo:
             return('sztring hiba')
         if tip==int:
-          if abs(sa-va)>INT_TOL or tip(va-vo)>INT_TOL:
+          if abs(va-vo)>INT_TOL: # 
             return('integer hiba')
         if tip==float:
           if abs(va-vo)>FLOAT_TOL:

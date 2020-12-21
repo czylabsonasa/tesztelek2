@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "python -> python3 csere a config_gen-ben, mert valahol python=python2"
+git commit -m "integer hiba <- lebegőpontos hiba"
 git push origin master
