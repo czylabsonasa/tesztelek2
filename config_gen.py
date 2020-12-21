@@ -17,7 +17,7 @@ _lang2ext=dict({
     "julia"    : "jl",
     "node.js"  : "js",
     "golang"   : "go",
-    "binary"   : "exe"
+    "binary"   : "exe" # 
 })
 
 # a matlab nincs octave a default
@@ -39,7 +39,7 @@ _ext2lang=dict({
 # func mod parancsai
 _fvege=" 1> fake.out 2> fake.out"
 _lang2cmdF=dict({
-    "python"  :"python app.py"+_fvege,
+    "python"  :"python3 app.py"+_fvege,
     "matlab"  :"matlab -nojvm -nodesktop -nosplash < app.m"+_fvege,
     "octave"  :"octave-cli app.m"+_fvege,
     "julia"   :"julia app.jl"+_fvege,
@@ -48,12 +48,12 @@ _lang2cmdF=dict({
 
 _pvege="< io/{:s}.in 1> act/{:s}.out 2> fake.out"
 _lang2cmdP=dict({
-    "python"  :"python solve.py "+_pvege,
+    "python"  :"python3 solve.py "+_pvege,
     "octave"  :"octave-cli solve.m "+_pvege,
     "julia"   :"julia solve.jl "+_pvege,
     "node.js" :"node solve.js "+_pvege,
     "golang"  :"go run solve.go "+_pvege,
-    "binary"  :"./solve "+_pvege # win ???
+    "binary"  :"./solve.exe "+_pvege # win ???
 })
 
 _modes=["prog","func"]
