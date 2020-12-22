@@ -1,5 +1,18 @@
 ## Módosítások
 
+### 2020 dec 21
+#### config_gen.py
+* python -> python3 csere
+#### evaluate.py
+* az "integer hiba" nem volt jó -> fix
+* float ellenőrzés -> 1e1 alak -> beépít
+#### használat
+* prog mód -> default
+#### octave
+* IO példák a használathoz
+
+---
+
 ### 2020 dec 02
 #### golang prog-módban [tesztelve](../problems/bday/doc/pexample.md)
 

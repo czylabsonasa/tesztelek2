@@ -7,6 +7,7 @@
     * python
     * julia
     * node.js
+    * golang
     * binary (natív futtatható)
   * a `func` mód azoknál a feladatoknál használható ahol a feladat könyvtárában van egy 
   megfelelő kiterjesztésű `app` file.
@@ -19,3 +20,7 @@
 ### prog mód:
 [oktáv](poctave.png)
 [bináris](pbinary.png)
+
+### octave IO 
+* [tutorial](octaveSimpleIO.tgz)
+

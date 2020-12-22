@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "integer hiba <- lebegőpontos hiba"
+git commit -m "small fixes + octave io példák"
 git push origin master

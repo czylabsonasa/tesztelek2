@@ -63,7 +63,7 @@ _defaultargs=dict({
   "lang":"",
   "problem":"",
   "sol":"",
-  "mode":"func",
+  "mode":"prog",
   "TEST_DIR":"testdir",
   "PROBLEM_DIR":"problems"
 })
