@@ -149,6 +149,13 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 * (P)
 * t-próba
 
+#### [chisq](chisq/doc/desc.pdf)
+* (P)
+* chi^2-próba illeszkedés vizsgálat
+
+
+
+
 
 
 ## szimuláció
