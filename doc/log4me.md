@@ -1,6 +1,7 @@
 ## Módosítások
 
-### 2020 dec 21
+
+### 2020 dec 21-22
 #### config_gen.py
 * python -> python3 csere
 #### evaluate.py
