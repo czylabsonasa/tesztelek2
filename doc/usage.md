@@ -21,6 +21,6 @@
 [oktáv](poctave.png)
 [bináris](pbinary.png)
 
-### octave IO 
+## octave IO 
 * [tutorial](octaveSimpleIO.tgz)
 
