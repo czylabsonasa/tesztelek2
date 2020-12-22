@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "small fixes + octave io példák"
+git commit -m "small fixes"
 git push origin master

@@ -7,7 +7,8 @@
 * az "integer hiba" nem volt jó -> fix
 * float ellenőrzés -> 1e1 alak -> beépít
 #### használat
-* prog mód -> default
+* prog mód -> default -> help szövegben is kicserélve
+* 
 #### octave
 * IO példák a használathoz
 
