@@ -6,9 +6,9 @@
 \pn Adott $k, \alpha,\ \ p_1,\ldots,p_k$ valségeloszlás és $x_1,\ldots,x_m$ minta  
 esetén végezzünk illeszkedés-vizsgálatot. Paraméterek: $k$ egy pozitív egész szám, jelentése a megfigyelt 
 valségi változó értékei az $[1,k]$ intervallumbeli egészek, $p_k$: annak az elméleti (hipotetikus)
-valsége hogy a megfigyelt változó $k$-t vesz fel.
-A kimenet ($dec\in \{0,1\}$) attól függően, hogy megtartjuk $H_0$-t vagy sem $\alpha$ elsőfajú 
-hibát használva.
+valsége hogy a megfigyelt változó $k$-t vesz fel. Számoljuk ki a próbafüggvényt $\chi^2score$ az 
+adott szinthez tartozó kritikus értéket ($c_f$) és döntsünk ($dec\in \{0,1\}$) 
+attól függően, hogy megtartjuk $H_0$-t vagy sem $\alpha$ elsőfajú hibát használva.
 }{
 %input
 \pn $k\ \  \alpha$
@@ -16,7 +16,7 @@ hibát használva.
 \pn $x_1\ \ldots\ x_m$
 }{
 %output
-\pn $dec$
+\pn $\chi^2score \ \ c_f \ \ dec$
 }{
 \pn $2\le m \le 10000$
 \pn $2\le k \le 100$

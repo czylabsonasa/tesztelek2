@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "small fixes"
+git commit -m "chisq"
 git push origin master
