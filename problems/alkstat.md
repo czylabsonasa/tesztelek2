@@ -153,6 +153,11 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 * (P)
 * chi^2-próba illeszkedés vizsgálat
 
+#### [conf](conf/doc/desc.pdf)
+* (P)
+* konfidenci intervallum
+
+
 
 
 
