@@ -15,8 +15,6 @@
   megkapja az aktuális input/output deszkriptorait, ezek(ből/be) intézed az 
   olvasást és írást. Ezt olyan környezeteknél érdemes használni, ahol a rendszer 
   felállási ideje magas (matlab,java(?)) - hiszen ennél a módnál csak egyszer indítjuk be. 
-  Ez **nem** minden feladatnál elérhető - csak ahol a feladat könyvtárában megvan a megfelelő nyelven 
-  egy ```app``` nevű program (egy szimbolikus link amit a win nem tamogat és a github-se teljesen, 
-  de **remélem** nem gond).
+  Ez **nem** minden nyelvnél elérhető - csak melyekhez megvan a megfelelő `app.ext` fájl.
 
 
