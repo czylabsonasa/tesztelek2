@@ -50,7 +50,7 @@ def prepare(res):
       if lang=="":
         res["msg"]="nem tudom megállapítani a nyelv-et"
         break
-      if lang=="":
+      if problem=="":
         res["msg"]="nem tudom megállapítani a feladat-ot"
         break
         
@@ -88,7 +88,7 @@ def prepare(res):
           break
 
         from os import path
-        pth=PROBLEM_DIR+"/"+problem+"/app."+config_gen["lang2ext"][lang]
+        pth="apps/app."+config_gen["lang2ext"][lang]
         #print(pth)
         if False==path.islink(pth) and False==path.isfile(pth):
           res["msg"]="nem elérhető a func mód"
@@ -114,7 +114,7 @@ def prepare(res):
     
     copy(sol, TEST_DIR+"/solve."+ext)
     if mode=="func":
-      copy(PROBLEM_DIR+"/_apps/app."+ext, TEST_DIR+"/app."+ext)
+      copy("apps/app."+ext, TEST_DIR+"/app."+ext)
     copytree(PROBLEM_DIR+"/"+problem+"/io", TEST_DIR+"/io")
 
 

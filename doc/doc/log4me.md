@@ -1,7 +1,7 @@
 ## Módosítások
 
 ### 2020 dec 24
-#### problems/_apps -> apps
+#### 
 
 
 ### 2020 dec 21-22
