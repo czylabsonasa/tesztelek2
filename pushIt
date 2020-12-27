@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "kis átalakítás (apps)"
+git commit -m "evaluate int kivesz. str -> float"
 git push origin master
