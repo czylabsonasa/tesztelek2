@@ -44,13 +44,13 @@ def evaluate(res):
       while True:
         if tip==str:
           if va!=vo:
-            return('sztring hiba')
+            return('sztring eltérés')
         if tip==int:
           if abs(va-vo)>INT_TOL: # 
-            return('integer hiba')
+            return('integer eltérés')
         if tip==float:
           if abs(va-vo)>FLOAT_TOL:
-            return('lebegőpontos hiba')
+            return('float eltérés ')
         break
     return('OK')
 
