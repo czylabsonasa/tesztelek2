@@ -20,9 +20,11 @@ def evaluate(res):
       while True:
         try:
           float(so)
-          if "." in so or "e" in so.lower(): # ddddéndzserasz 1e-1 2E-3 1.0 -> float
-            tip=float
-            break
+          # if "." in so or "e" in so.lower(): # ddddéndzserasz 1e-1 2E-3 1.0 -> float
+          #   tip=float
+          #   break
+          tip=float
+          break
         except:
           pass
         try:
