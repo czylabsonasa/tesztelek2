@@ -26,8 +26,8 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 * (M)
 * 3 kockával dobva mennyi az esély hogy S a dobott számok összege?
 * megoldás
-  * [prog mód](diesum3/doc/pexample.md)
-  * [func mód](diesum3/doc/fexample.md)
+  * [prog mód](die/doc/pexample.md)
+  * [func mód](die/doc/fexample.md)
 
 
 #### [die2](die2/doc/desc.pdf)
@@ -155,7 +155,7 @@ pl. 80%-nál nagyobb eséllyel legyen születésnap azonosság?
 
 #### [conf](conf/doc/desc.pdf)
 * (P)
-* konfidenci intervallum
+* konfidencia intervallum
 
 
 
