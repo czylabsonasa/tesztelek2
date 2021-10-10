@@ -34,5 +34,7 @@ reg_problems=dict({
   # alkmat
   "trap":1,
   # diszmat
-  "points":1
+  "points":1,
+  #
+  "xmpl":1
 })

@@ -1,4 +1,4 @@
 #!/bin/bash
 git add --all
-git commit -m "evaluate int kivesz. str -> float"
+git commit -m "progress..."
 git push origin master
