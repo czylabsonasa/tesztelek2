@@ -23,23 +23,23 @@ _langs=[
 ]
 
 _lang2ext=dict({
-    "python"   : "py",
-    "matlab"   : "m",
-    "octave"   : "m",
-    "julia"    : "jl",
-    "node.js"  : "js",
-    "golang"   : "go",
-    "binary"   : "exe" # 
+    "python"   :   "py",
+    "matlab"   :   "m",
+    "octave"   :   "m",
+    "julia"    :   "jl",
+    "node.js"  :   "js",
+    "golang"   :   "go",
+    "binary"   :   "exe" # 
 })
 
 # a matlab nincs octave a default
 _ext2lang=dict({ 
-    "py"   : "python",
-    "m"    : "octave",
-    "jl"   : "julia" ,
-    "js"   : "node.js",
-    "go"   : "golang",
-    "exe"     : "binary"
+    "py"   :   "python",
+    "m"    :   "octave",
+    "jl"   :   "julia" ,
+    "js"   :   "node.js",
+    "go"   :   "golang",
+    "exe"  :   "binary"
 })
 
 
@@ -63,11 +63,11 @@ def mkFunMode(exe, args):
 
 
 _lang2cmdF=dict({
-    "python"  : mkFunMode(python_exe, "app.py"),
-    "matlab"  : mkFunMode(matlab_exe, "-nojvm -nodesktop -nosplash < app.m"),
-    "octave"  : mkFunMode(octave_exe, "app.m"), 
-    "julia"   : mkFunMode(julia_exe,  "app.jl"),
-    "node.js" : mkFunMode(nodejs_exe, "app.js"),
+    "python"  : mkFunMode(python_exe,   "app.py"),
+    "matlab"  : mkFunMode(matlab_exe,   "-nojvm -nodesktop -nosplash < app.m"),
+    "octave"  : mkFunMode(octave_exe,   "app.m"), 
+    "julia"   : mkFunMode(julia_exe,    "app.jl"),
+    "node.js" : mkFunMode(nodejs_exe,   "app.js"),
 })
 
 
@@ -77,12 +77,12 @@ def mkProgMode(exe, args):
 
 
 _lang2cmdP=dict({
-    "python"  : mkProgMode(python_exe, "solve.py"),
-    "octave"  : mkProgMode(octave_exe, "solve.m"), 
-    "julia"   : mkProgMode(julia_exe,  "solve.jl"),
-    "node.js" : mkProgMode(nodejs_exe, "solve.js"),
-    "golang"  : mkProgMode(golang_exe, "run solve.go"),
-    "binary"  : mkProgMode("", "./solve.exe"),
+    "python"  : mkProgMode(python_exe,   "solve.py"),
+    "octave"  : mkProgMode(octave_exe,   "solve.m"), 
+    "julia"   : mkProgMode(julia_exe,    "solve.jl"),
+    "node.js" : mkProgMode(nodejs_exe,   "solve.js"),
+    "golang"  : mkProgMode(golang_exe,   "run solve.go"),
+    "binary"  : mkProgMode("",           "./solve.exe"),
 })        
 
 
